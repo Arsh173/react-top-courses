@@ -1,16 +1,123 @@
-# React + Vite
+# 📚 Top Courses
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React application that allows users to browse and filter courses by category. The project demonstrates dynamic filtering, reusable React components, and state management using React Hooks while providing a clean and responsive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📖 Browse courses from multiple categories
+- 🎯 Filter courses by category
+- ⚡ Dynamic UI updates using React Hooks
+- 🔄 Reusable React components
+- 📱 Fully responsive design
+- 🎨 Clean and modern interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- 🟨 JavaScript (ES6+)
+- 🎨 CSS3
+- ⚡ Vite
+- 🌿 Git & GitHub
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://react-top-courses-nine.vercel.app/
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+│   ├── Card.jsx
+│   ├── Cards.jsx
+│   ├── Filter.jsx
+│   ├── Navbar.jsx
+│   └── Spinner.jsx
+├── data.jsx
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+---
+
+## 📸 Project Screenshot
+
+![Top Courses](screenshots/top-courses.png)
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Arsh173/react-top-courses.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd react-top-courses
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📚 React Concepts Practiced
+
+- Functional Components
+- Props
+- useState Hook
+- Conditional Rendering
+- Dynamic Filtering
+- Event Handling
+- Array Mapping
+- Component Composition
+
+---
+
+## 🎯 Future Improvements
+
+- 🔍 Search Courses
+- ❤️ Add Favorites
+- 🌙 Dark Mode
+- 📄 Course Details Page
+- 🔥 Backend Integration
+- 💾 Save user preferences using Local Storage
+
+---
+
+## 👨‍💻 Author
+
+**Arsh**
+
+- GitHub: https://github.com/Arsh173
+- LinkedIn: https://linkedin.com/in/arsh0786
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub!
